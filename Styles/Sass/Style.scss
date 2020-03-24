@@ -1,0 +1,33 @@
+
+
+
+//this is he stylesheet file for this page
+
+//variables
+@import "variables";
+
+
+//navbar styles 
+
+@import "navbar.scss";
+
+//body styles
+body{
+    background: $background-color;
+    font-style: $font-family-sans-serif;
+    font-size:$font-size-base;
+    line-height: $line-height-base;
+
+}
+.error{
+    color:red;
+}
+
+.addfile{
+    margin:30px;
+}
+ .close{
+
+    transform: rotate(45deg);
+    color:red;
+}

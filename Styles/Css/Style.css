@@ -1,0 +1,51 @@
+nav {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin-bottom: 20px;
+}
+nav form .input-group input[type=text] {
+  margin-left: 60px;
+  padding-right: 200px;
+  position: relative;
+  left: 20px;
+}
+nav ul {
+  margin-right: 60px;
+}
+nav ul li {
+  padding: 15px;
+  text-align: center;
+}
+nav ul li:hover {
+  background: #e6e7e7;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background: #e6e7e7;
+  font-style: "Nunito", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.error {
+  color: red;
+}
+
+.addfile {
+  margin: 30px;
+}
+
+.close {
+  transform: rotate(45deg);
+  color: red;
+}

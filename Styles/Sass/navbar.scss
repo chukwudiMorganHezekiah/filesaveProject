@@ -1,0 +1,41 @@
+
+
+//this is the style for the navbar
+
+
+nav{
+    position:fixed;
+    z-index:99;
+    width:100%;
+    margin-bottom:20px;
+    
+
+    form .input-group input[type='text']{
+        margin-left:60px;
+        padding-right:200px;
+        position: relative;
+        left:20px;
+    }
+    ul{
+        margin-right:60px;
+        li{
+            
+            padding:15px;
+            text-align:center;
+            &:hover{
+                background: $background-color;
+                cursor: pointer;
+            }
+            a{
+                text-decoration:none;
+                color:black;
+                &:hover{
+                    color:white;
+                    text-decoration:none;
+
+                }
+                
+            }
+        }
+    }
+}
